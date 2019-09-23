@@ -65,11 +65,11 @@ hooks:
 #   revision's file bundle.
 # During the BeforeInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-# During the AfterInstall deployment lifecycle event, run the commands 
-#   in the script specified in "location".
   BeforeInstall:
     - location: aws_scripts/install_utilities.sh
       timeout: 300
+# During the AfterInstall deployment lifecycle event, run the commands 
+#   in the script specified in "location".
   AfterInstall: 
     - location: aws_scripts/build_dependencies.sh    
       timeout: 300
