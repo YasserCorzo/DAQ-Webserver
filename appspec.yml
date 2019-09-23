@@ -67,6 +67,9 @@ hooks:
 #   in the script specified in "location".
 # During the AfterInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
+  BeforeInstall:
+    - location: aws_scripts/install_utilities.sh
+      timeout: 300
   AfterInstall: 
     - location: aws_scripts/build_dependencies.sh    
       timeout: 300
