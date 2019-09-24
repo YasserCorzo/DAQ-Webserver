@@ -25,7 +25,7 @@ sh aws_scripts/build_dependencies.sh
 ```bash
 sh source/run_local.sh
 ```
-The server runs on port 3000. You can access it by going to [localhost:3000] in a web browser while it is running.
+The server runs on port 3000. You can access it by going to [localhost:3000](localhost:3000) in a web browser while it is running.
 
 5. Stop the server with ```Ctrl+C```
 
