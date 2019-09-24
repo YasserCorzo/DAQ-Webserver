@@ -31,6 +31,13 @@ app.get('/', function(req, res){
 
 });
 
+app.get('/awshealthcheck', function(req, res){
+  
+  // render the page
+  res.send("1");
+
+});
+
 
 // -------------- listener -------------- //
 // The listener is what keeps node 'alive.' 
