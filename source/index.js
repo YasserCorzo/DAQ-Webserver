@@ -9,7 +9,7 @@ var hbs = require('hbs');
 
 
 // -------------- express initialization -------------- //
-app.set('port', process.env.PORT || 8080 );
+app.set('port', 3000 );
 
 // tell express that the view engine is hbs
 app.set('view engine', 'hbs');
