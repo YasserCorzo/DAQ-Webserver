@@ -37,11 +37,11 @@ vim source/info.log
 ```
 
 7. If you want to see logs in real time, you can:
-...A.  Open another terminal window to the same directory and run
+   A.  Open another terminal window to the same directory and run
 ```bash
 tail -f source/info.log
 ```
-...B.  Run the following command instead of ```source/run_local.sh```
+   B.  Run the following command instead of ```source/run_local.sh```
 ```bash
 node source/index.js
 ```
