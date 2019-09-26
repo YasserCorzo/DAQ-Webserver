@@ -1,7 +1,7 @@
 # DAQ Webserver
 * Webserver pilot for CMR 20e's DAQ system
 * Runs a NodeJS Server to show racing data in a simple user interface
-* See live webpage at [cmr.daq.com.ar](http://cmr.daq.com.ar)
+* See live webpage at [daq.cmr.com.ar](http://daq.cmr.com.ar)
 
 # Instructions
 ## Branch Usage
